@@ -1,12 +1,12 @@
 #!/bin/bash
 echo ""
-echo "***************"
-echo "Good on you for backing up your files! :D"
-echo "***************"
+echo "***********************************************"
+echo "*  Good on you for backing up your files! :D  *"
+echo "***********************************************"
 echo ""
 rsync --recursive --delete -v -u --exclude 'Desktop' --exclude 'Downloads' /mnt/Entertainment/Libraries /media/jay/Backup5
 echo ""
-echo "***************"
-echo "Your sensitive data is now safe from catastrophe. :)"
-echo "***************"
+echo "***********************************************************"
+echo "*  Your sensitive data is now safe from catastrophe. :)   *"
+echo "***********************************************************"
 echo ""
