@@ -4,7 +4,7 @@ echo "***********************************************"
 echo "*  Good on you for backing up your files! :D  *"
 echo "***********************************************"
 echo ""
-rsync --recursive --delete -v -u --exclude 'Desktop' --exclude 'Downloads' --exclude 'Documents' /mnt/Entertainment/Libraries /media/constant_j/Backup
+rsync --recursive --delete -v -u --exclude 'Desktop' --exclude 'Downloads' --exclude 'Documents' --exclude 'Personal Programs' /mnt/Entertainment/Libraries /mnt/backup/Libraries
 echo ""
 echo "***********************************************************"
 echo "*  Your sensitive data is now safe from catastrophe. :)   *"
