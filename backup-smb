@@ -4,7 +4,7 @@ echo "***********************************************"
 echo "*  Good on you for backing up your files! :D  *"
 echo "***********************************************"
 echo ""
-rsync --recursive --delete -v -u --exclude 'Desktop' --exclude 'Downloads' --exclude 'Documents' --exclude 'Personal Programs' /mnt/Entertainment/Libraries /run/user/1000/gvfs/smb-share:server=10.0.0.212,share=backup/Libraries
+rsync -rvvu --delete --exclude={'Desktop','Downloads','Documents','Personal Programs','Coding-Projects'} --delete-excluded /mnt/Entertainment/Libraries /run/user/1000/gvfs/smb-share:server=10.0.0.212,share=backup/Libraries
 echo ""
 echo "***********************************************************"
 echo "*  Your sensitive data is now safe from catastrophe. :)   *"
