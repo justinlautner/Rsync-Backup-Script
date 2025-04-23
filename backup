@@ -4,7 +4,7 @@ echo "***********************************************"
 echo "*  Good on you for backing up your files! :D  *"
 echo "***********************************************"
 echo ""
-rsync -rvvu --delete --exclude={'Desktop','Downloads','Documents','Personal Programs','Coding-Projects'} --delete-excluded /mnt/Entertainment/Libraries /mnt/backup
+rsync -rvvu --exclude={'Music/Apple Music'} /mnt/Media/ /mnt/backup/
 echo ""
 echo "***********************************************************"
 echo "*  Your sensitive data is now safe from catastrophe. :)   *"
